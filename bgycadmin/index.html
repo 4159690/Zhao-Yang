@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>主窗口</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/icons-extra.css" rel="stylesheet"/>
+    <style type="text/css">
+        body{background-color:#FFFFFF;}
+    </style>
+	<style>
+        .mui-radio input[type='radio']:checked:before, .mui-checkbox input[type='checkbox']:checked:before
+        {
+            color: #007AFF;
+        }        
+	</style>
+</head>
+<body>
+
+
+
+	<div class="mui-content" style="background-color:transparent;">
+
+		<div id="自由面板1" class="mui-input-row" tag="自由面板" style="margin:0px 0px 5px 0px;display:-webkit-flex;width:100%;height:250px;">
+			<div class="mui-input-row" style="margin:0px;display:block;left:0px;top:166px;width:320px;height:40px;position:absolute;">
+			<input id="编辑框1" type="text" placeholder="Admin ID" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+			<div class="mui-input-row" style="margin:0px;display:block;left:0px;top:206px;width:320px;height:40px;position:absolute;">
+			<input id="编辑框2" type="text" placeholder="密码" style="color:#000000;font-size:14px;margin:0px 0px 0px 0px;"></input>
+		</div>
+
+		<div class="mui-input-row" style="margin:0px;display:block;left:-1px;top:136px;width:320px;height:24px;position:absolute;">
+			<label id="标签1" style="width:100%;color:#383852;font-size:20px;margin:0px 0px 0px 0px;padding:0px;text-align:center"><b>请登录Administrator</b></label>
+		</div>
+
+		<div class="mui-input-row" style="margin:0px 0px -5px 0px;text-align:center;display:block;left:278px;top:206px;width:32px;height:32px;position:absolute;">
+			<img id="图片框1" style="width:100%;height:100%;" src="images/jt.png" />
+		</div>
+
+		<div class="mui-input-row" style="margin:0px 0px -5px 0px;text-align:center;display:block;left:9px;top:10px;width:22px;height:22px;position:absolute;">
+			<img id="图片框2" style="width:100%;height:100%;" src="images/car.png" />
+		</div>
+		</div>
+
+		<div id="复选框1" class="mui-input-row mui-checkbox mui-left" style="margin:0px;display:block;color:#383852">
+			<label>记住我的Admin ID</label>
+			<input name="checkbox" type="checkbox">
+		</div>
+
+
+	</div>
+
+</body>
+<script src="js/mui.min.js"></script>
+<script src="js/bluebird_localStorage.js"></script>
+<script src="js/bluebird_window.js"></script>
+<script src="js/bluebird_convert.js"></script>
+<script src="js/bluebird_date.js"></script>
+<script src="js/bluebird_freedomPanel.js"></script>
+<script src="js/bluebird_editBox.js"></script>
+<script src="js/bluebird_lable.js"></script>
+<script src="js/bluebird_imageBox.js"></script>
+<script src="js/bluebird_checkbox.js"></script>
+<script src="js/bluebird_ajax.js"></script>
+<script src="js/bluebird_dialogBox.js"></script>
+<script src="index.js"></script>
+</html>
